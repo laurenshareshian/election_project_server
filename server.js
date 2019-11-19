@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = process.env.PORT || 1227;
+const port = process.env.PORT || 8080;
 
 var politicians = require('./data/politicians.js');
 
